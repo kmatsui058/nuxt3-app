@@ -1,0 +1,12 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+
+@import "bulmaswatch/slate/_variables.scss";
+
+// 5. Add new color variables to the color map.
+@import "~bulma/sass/utilities/derived-variables.sass";
+
+
+// 6. Import the rest of Bulma
+@import "~bulma/bulma";
+@import "bulmaswatch/slate/_overrides.scss";

@@ -1,0 +1,1245 @@
+
+    const data: XmlMemoryCharacter.RootObject = {
+  "Root": {
+    "Entry": [
+      {
+        "zType": {
+          
+        },
+        "Text": {
+          "comment": "Player-facing string describing the memory."
+        },
+        "MemoryLevel": {
+          
+        },
+        "iValue": {
+          "comment": "Effect of this memory on family opinion."
+        },
+        "iTurns": {
+          "comment": "Number of turns this memory lasts."
+        },
+        "bName": {
+          "comment": "Show the name for event options."
+        }
+      },
+      {
+        "zType": "MEMORYCHARACTER_HID_CHILD"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DEMANDED_MONEY"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DEMANDED_RESOURCES"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DEMANDED_TRUCE"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IMPRISONED_RECENTLY",
+        "Text": "TEXT_MEMORYCHARACTER_IMPRISONED_RECENTLY",
+        "iTurns": "4"
+      },
+      {
+        "zType": "MEMORYCHARACTER_UPGRADED_RECENTLY",
+        "Text": "TEXT_MEMORYCHARACTER_UPGRADED_RECENTLY",
+        "iValue": "20",
+        "iTurns": "10"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ASSASSINATE_FAIL",
+        "Text": "TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MATCH_PREVENT",
+        "Text": "TEXT_MEMORYCHARACTER_MATCH_PREVENT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_SMOOTHED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_SMOOTHED",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_SMOOTHED",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_SMOOTHED",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NO_WAR",
+        "Text": "TEXT_MEMORYCHARACTER_NO_WAR",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SMUGGLED_OUT_POET",
+        "Text": "TEXT_MEMORYCHARACTER_SMUGGLED_OUT_POET",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_WAR_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_WAR_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_WAR_POS",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_WAR_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADULT_CHILDREN_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_ADULT_CHILDREN_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADULT_CHILDREN_POS",
+        "Text": "TEXT_MEMORYCHARACTER_ADULT_CHILDREN_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_AMB_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_AMB_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_AMB_POS",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_AMB_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PATRIARCH_OLIGARCH_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PATRIARCH_OLIGARCH_POS",
+        "Text": "TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREEMENT_COUNCIL_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREEMENT_COUNCIL_POS",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DENIED_POET",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_POET",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DENIED_PEACE_DEAL",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LOST_CONSORT",
+        "Text": "TEXT_MEMORYCHARACTER_LOST_CONSORT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_KEPT_CONSORT",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_CONSORT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RELEASED_CONSORT",
+        "Text": "TEXT_MEMORYCHARACTER_RELEASED_CONSORT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE",
+        "Text": "TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER",
+        "Text": "TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_WARNED_TO_STOP",
+        "Text": "TEXT_MEMORYCHARACTER_WARNED_TO_STOP",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_AVOIDED_WAR",
+        "Text": "TEXT_MEMORYCHARACTER_AVOIDED_WAR",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HOSTILE_ACCUSATIONS",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_ACCUSATIONS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRADE_DEAL",
+        "Text": "TEXT_MEMORYCHARACTER_TRADE_DEAL",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_WORKED_IT_OUT",
+        "Text": "TEXT_MEMORYCHARACTER_WORKED_IT_OUT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ACCEPTED_CHALLENGE",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_CHALLENGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_CHALLENGE",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_CHALLENGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IMPRISONED",
+        "Text": "TEXT_MEMORYCHARACTER_IMPRISONED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TAKE_NO_PRISONERS",
+        "Text": "TEXT_MEMORYCHARACTER_TAKE_NO_PRISONERS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MERCY_FOR_PRISONERS",
+        "Text": "TEXT_MEMORYCHARACTER_MERCY_FOR_PRISONERS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_NO_DISSECTION",
+        "Text": "TEXT_MEMORYCHARACTER_GP_NO_DISSECTION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_YES_DISSECTION",
+        "Text": "TEXT_MEMORYCHARACTER_GP_YES_DISSECTION",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SOLDIER_DISSECTIONS",
+        "Text": "TEXT_MEMORYCHARACTER_SOLDIER_DISSECTIONS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE",
+        "Text": "TEXT_MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_REMOVED_FROM_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_GP_REMOVED_FROM_COURT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_FOUGHT_USURY",
+        "Text": "TEXT_MEMORYCHARACTER_GP_FOUGHT_USURY",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_USURY_CRACKDOWN",
+        "Text": "TEXT_MEMORYCHARACTER_GP_USURY_CRACKDOWN",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_KEPT_IN_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_GP_KEPT_IN_COURT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_LITERATURE_YES",
+        "Text": "TEXT_MEMORYCHARACTER_GP_LITERATURE_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_LITERATURE_NO",
+        "Text": "TEXT_MEMORYCHARACTER_GP_LITERATURE_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_PROMOTION",
+        "Text": "TEXT_MEMORYCHARACTER_GP_PROMOTION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS",
+        "Text": "TEXT_MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
+      },
+      {
+        "zType": "MEMORYCHARACTER_APPROVED_POISON_LAB",
+        "Text": "TEXT_MEMORYCHARACTER_APPROVED_POISON_LAB",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GIVEN_AUDIENCE",
+        "Text": "TEXT_MEMORYCHARACTER_GIVEN_AUDIENCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_AUDIENCE",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_AUDIENCE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADDED_TO_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_ADDED_TO_COURT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE",
+        "Text": "TEXT_MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_EXECUTION",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EXECUTION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_TRIBUTE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_TRIBUTE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_IGNORED_US",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_IGNORED_US",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_HUMILITY",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_HUMILITY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_OFFEND",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_OFFEND",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_SPIES",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_SPIES",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_SOLD_ART",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_SOLD_ART",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BIG_INSULT",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BIG_INSULT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_SMALL_INSULT",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_SMALL_INSULT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_EGYPT_REFUSED",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_REFUSED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_EGYPT_RA",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_RA",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_TRUST",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_TRUST",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_CODE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_CODE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH_GREECE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_GREECE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH_NO_MORE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_NO_MORE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_VICTORY",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VICTORY",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_DEFEAT",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_DEFEAT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_VENDETTA",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VENDETTA",
+        "iValue": "-100"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_DUEL",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_DUEL",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_WAR",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_WAR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_TRICKED",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_TRICKED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_FEE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_FEE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_FEE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_FEE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABLYON_CHARISMA",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABLYON_CHARISMA",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_WAR",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_WAR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_INSULT",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_INSULT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_TEDIOUS",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_TEDIOUS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_GREED",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_GREED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BULLIED",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BULLIED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_TRADE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_TRADE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ASSYRIA_PRIDE",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_PRIDE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_ASSYRIA_CRAZY",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_CRAZY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NEIGHBORS_TALK_IS_CHEAP",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_TALK_IS_CHEAP",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRUSTED_ALLY",
+        "Text": "TEXT_MEMORYCHARACTER_TRUSTED_ALLY",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ATTACKED_BY_A_BEAR_AID",
+        "Text": "TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_AID",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ATTACKED_BY_A_BEAR_NOTIFY",
+        "Text": "TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_NOTIFY",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_FIRST_REFUSE",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_FIRST_REFUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_PAID_TWICE",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_PAID_TWICE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_DIPLOMAT",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_DIPLOMAT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_SECOND_REFUSE",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_SECOND_REFUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NO_TRADE_TECH",
+        "Text": "TEXT_MEMORYCHARACTER_NO_TRADE_TECH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_YES_TRADE_TECH",
+        "Text": "TEXT_MEMORYCHARACTER_YES_TRADE_TECH",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PEACE_GIFT",
+        "Text": "TEXT_MEMORYCHARACTER_PEACE_GIFT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRIBUTE_DEMAND_REFUSED",
+        "Text": "TEXT_MEMORYCHARACTER_TRIBUTE_DEMAND_REFUSED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HONORED_OUR_SOVEREIGNTY",
+        "Text": "TEXT_MEMORYCHARACTER_HONORED_OUR_SOVEREIGNTY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_STEPPED_ON_OUR_SOVEREIGNTY",
+        "Text": "TEXT_MEMORYCHARACTER_STEPPED_ON_OUR_SOVEREIGNTY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES",
+        "Text": "TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO",
+        "Text": "TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES",
+        "Text": "TEXT_MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LET_KEEP_LOOT",
+        "Text": "TEXT_MEMORYCHARACTER_LET_KEEP_LOOT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD",
+        "Text": "TEXT_MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RETURNED_MYSTERIOUS_CHILD",
+        "Text": "TEXT_MEMORYCHARACTER_RETURNED_MYSTERIOUS_CHILD",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CHILD_NO_BABY",
+        "Text": "TEXT_MEMORYCHARACTER_CHILD_NO_BABY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CHILD_DISOWNED_DAUGHTER",
+        "Text": "TEXT_MEMORYCHARACTER_CHILD_DISOWNED_DAUGHTER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_NEGATIVE",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_NEGATIVE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_POSITIVE",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_POSITIVE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRAIT_TOOK_ME_TO_RECOVER",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_TOOK_ME_TO_RECOVER",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CHANGED_TO_SENIORITY",
+        "Text": "TEXT_MEMORYCHARACTER_CHANGED_TO_SENIORITY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_KEPT_IN_SUCCESSION",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_IN_SUCCESSION",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LEADER_REFUSED_TO_ABDICATE",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_REFUSED_TO_ABDICATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_NO_ABDICATE",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_NO_ABDICATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PARENT_NO_ABDICATE",
+        "Text": "TEXT_MEMORYCHARACTER_PARENT_NO_ABDICATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RULER_ACCEPTED_CUP",
+        "Text": "TEXT_MEMORYCHARACTER_RULER_ACCEPTED_CUP",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RULER_REFUSED_CUP",
+        "Text": "TEXT_MEMORYCHARACTER_RULER_REFUSED_CUP",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LEADER_WISHED_FOR_PEACE",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_WISHED_FOR_PEACE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SEPARATED_MENTEE",
+        "Text": "TEXT_MEMORYCHARACTER_SEPARATED_MENTEE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_KEPT_ME_ON_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_ME_ON_COURT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISCIPLINED_AT_TRAINING",
+        "Text": "TEXT_MEMORYCHARACTER_DISCIPLINED_AT_TRAINING",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SUPPORTED_AT_SCHOOL",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_AT_SCHOOL",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RUINED_RELATIONSHIP",
+        "Text": "TEXT_MEMORYCHARACTER_RUINED_RELATIONSHIP",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SUPPORTED_RELATIONSHIP",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_RELATIONSHIP",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MADE_GOVERNOR",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_GOVERNOR",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MADE_CHANCELLOR",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_CHANCELLOR",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION",
+        "Text": "TEXT_MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SUPPORTED_ALLIANCE",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_ALLIANCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ACCUSED_OF_PLOTTING",
+        "Text": "TEXT_MEMORYCHARACTER_ACCUSED_OF_PLOTTING",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_IGNORED_MY_REQUEST",
+        "Text": "TEXT_MEMORYCHARACTER_GP_IGNORED_MY_REQUEST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_APPROVED_CAMPAIGN",
+        "Text": "TEXT_MEMORYCHARACTER_APPROVED_CAMPAIGN",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LAW_IGNORED_IN_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_IGNORED_IN_COURT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+        "Text": "TEXT_MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_WONDER_GIFTED_MAUSOLEUM",
+        "Text": "TEXT_MEMORYCHARACTER_WONDER_GIFTED_MAUSOLEUM",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION",
+        "Text": "TEXT_MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION",
+        "Text": "TEXT_MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SCRIPTURE_AS_TEXT",
+        "Text": "TEXT_MEMORYCHARACTER_SCRIPTURE_AS_TEXT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH",
+        "Text": "TEXT_MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RECEIVED_CONGRATULATORY_GIFT",
+        "Text": "TEXT_MEMORYCHARACTER_RECEIVED_CONGRATULATORY_GIFT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RUINS_NEW_HUMANS",
+        "Text": "TEXT_MEMORYCHARACTER_RUINS_NEW_HUMANS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_OVERCOMING_NATURE",
+        "Text": "TEXT_MEMORYCHARACTER_OVERCOMING_NATURE",
+        "iValue": "25",
+        "iTurns": "15",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GREAT_PARTY",
+        "Text": "TEXT_MEMORYCHARACTER_GREAT_PARTY",
+        "iValue": "30",
+        "iTurns": "10",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LIKES_HEADS",
+        "Text": "TEXT_MEMORYCHARACTER_LIKES_HEADS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LIED_TO",
+        "Text": "TEXT_MEMORYCHARACTER_LIED_TO"
+      },
+      {
+        "beginGroup": "Character",
+        "zType": "MEMORYCHARACTER_MARRIAGE_OF_STATE",
+        "Text": "TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BOUGHT_SILENCE",
+        "Text": "TEXT_MEMORYCHARACTER_BOUGHT_SILENCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_MILITARY_ADVICE",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_MILITARY_ADVICE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADDRESSED_GRIEVANCES",
+        "Text": "TEXT_MEMORYCHARACTER_ADDRESSED_GRIEVANCES",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MADE_TRUCE",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_TRUCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORY_FIXED_FINANCIALS",
+        "Text": "TEXT_MEMORY_FIXED_FINANCIALS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORY_BECAME_PERSONAL_ADVISER",
+        "Text": "TEXT_MEMORY_BECAME_PERSONAL_ADVISER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_FIRED_FROM_COURT",
+        "Text": "TEXT_MEMORYCHARACTER_FIRED_FROM_COURT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_WATCH_CLOSELY",
+        "Text": "TEXT_MEMORYCHARACTER_WATCH_CLOSELY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GIVEN_BAD_JOB",
+        "Text": "TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CONVINCE_TO_CHANGE",
+        "Text": "TEXT_MEMORYCHARACTER_CONVINCE_TO_CHANGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PAID_FOR_MY_SILENCE",
+        "Text": "TEXT_MEMORYCHARACTER_PAID_FOR_MY_SILENCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RENEWED_BOND",
+        "Text": "TEXT_MEMORYCHARACTER_RENEWED_BOND",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_BLAMED_REVELS_ON_ME",
+        "Text": "TEXT_MEMORYCHARACTER_BLAMED_REVELS_ON_ME",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_EXOTIC_GETAWAY",
+        "Text": "TEXT_MEMORYCHARACTER_EXOTIC_GETAWAY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NO_EXOTIC_GETAWAY",
+        "Text": "TEXT_MEMORYCHARACTER_NO_EXOTIC_GETAWAY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_POOR_SPOUSE",
+        "Text": "TEXT_MEMORYCHARACTER_POOR_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
+        "Text": "TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PAWS_REVENGE"
+      },
+      {
+        "beginGroup": "Miscellaneous",
+        "zType": "MEMORYCHARACTER_TOOK_MY_AMBITION",
+        "Text": "TEXT_MEMORYCHARACTER_TOOK_MY_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SUPPORTED_AMBITION",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CITY_EXECUTION",
+        "Text": "TEXT_MEMORYCHARACTER_CITY_EXECUTION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_COURT_FAVORS",
+        "Text": "TEXT_MEMORYCHARACTER_COURT_FAVORS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IN_INNER_CIRCLE",
+        "Text": "TEXT_MEMORYCHARACTER_IN_INNER_CIRCLE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_KILLED_SPOUSE",
+        "Text": "TEXT_MEMORYCHARACTER_KILLED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_AGREED_WITH_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_AGREED_WITH_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREED_WITH_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREED_WITH_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_AGREED_WITH_HEIR",
+        "Text": "TEXT_MEMORYCHARACTER_AGREED_WITH_HEIR",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREED_WITH_HEIR",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREED_WITH_HEIR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_MADE_NO_DECISION",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_NO_DECISION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR",
+        "Text": "TEXT_MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPURNED_MY_INVITATION",
+        "Text": "TEXT_MEMORYCHARACTER_SPURNED_MY_INVITATION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LEADER_MADE_A_SCENE",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_MADE_A_SCENE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PLOTTED_WITH_ME",
+        "Text": "TEXT_MEMORYCHARACTER_PLOTTED_WITH_ME",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_MY_CAUSE",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_MY_CAUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_EARNED_CONFIDENCE",
+        "Text": "TEXT_MEMORYCHARACTER_EARNED_CONFIDENCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_INFLUENCED_BY_SPY",
+        "Text": "TEXT_MEMORYCHARACTER_INFLUENCED_BY_SPY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SENT_TO_EXPLORE",
+        "Text": "TEXT_MEMORYCHARACTER_SENT_TO_EXPLORE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "beginGroup": "Diplomacy",
+        "zType": "MEMORYCHARACTER_GAVE_TECH",
+        "Text": "TEXT_MEMORYCHARACTER_GAVE_TECH",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_TECH",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TECH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SCOLDED_ME",
+        "Text": "TEXT_MEMORYCHARACTER_SCOLDED_ME",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LIKED_FLIRTATION",
+        "Text": "TEXT_MEMORYCHARACTER_LIKED_FLIRTATION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DEMAND_APOLOGY",
+        "Text": "TEXT_MEMORYCHARACTER_DEMAND_APOLOGY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "beginGroup": "Combat",
+        "zType": "MEMORYCHARACTER_REFUSED_FUNDS",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_FUNDS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Community",
+        "zType": "MEMORYCHARACTER_REFUSED_REQUEST",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_REQUEST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT",
+        "Text": "TEXT_MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP",
+        "Text": "TEXT_MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ACCEPTED_JUDGMENT",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_JUDGMENT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DAY_OF_DUPES_DEAL",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_DEAL",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DAY_OF_DUPES_POS",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DAY_OF_DUPES_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DENOUNCED_FINDINGS",
+        "Text": "TEXT_MEMORYCHARACTER_DENOUNCED_FINDINGS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ACCEPTED_PRAISE",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_PRAISE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IGNORED_OBJECTION",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_OBJECTION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_UPHELD_OBJECTION",
+        "Text": "TEXT_MEMORYCHARACTER_UPHELD_OBJECTION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL",
+        "Text": "TEXT_MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REFUSED_TO_SACRIFICE",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TO_SACRIFICE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PILGRIMAGED_TOGETHER",
+        "Text": "TEXT_MEMORYCHARACTER_PILGRIMAGED_TOGETHER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRUSTED",
+        "Text": "TEXT_MEMORYCHARACTER_TRUSTED",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_POISONED_MY_PREDECESSOR",
+        "Text": "TEXT_MEMORYCHARACTER_POISONED_MY_PREDECESSOR"
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES",
+        "Text": "TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "beginGroup": "Courtier",
+        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD",
+        "Text": "TEXT_MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IMPUDENT_MATCH",
+        "Text": "TEXT_MEMORYCHARACTER_IMPUDENT_MATCH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DOMESTIC_DISPUTE",
+        "Text": "TEXT_MEMORYCHARACTER_DOMESTIC_DISPUTE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_UNHAPPY_SIBLING_NO",
+        "Text": "TEXT_MEMORYCHARACTER_UNHAPPY_SIBLING_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_A_NEW_GENERAL_NO",
+        "Text": "TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      }
+    ]
+  }
+}
+    export default data
+    
