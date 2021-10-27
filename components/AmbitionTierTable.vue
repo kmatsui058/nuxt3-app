@@ -118,7 +118,7 @@ const flattenArray = computed(
           isFirst: j === 0,
           rowSpan: goals.length,
           isDesired: !!goal.familyClassWeights.find(
-            (weight) => weight.familyClass.zType === this.familyClassZType
+            (weight) => weight.familyClass.zType === props.familyClassZType
           ),
         });
       });

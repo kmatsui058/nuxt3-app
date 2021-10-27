@@ -40,7 +40,7 @@
   </section>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import techesXML from "~/assets/data/xml/tech";
 import Tech from "~/classes/Tech";
 
